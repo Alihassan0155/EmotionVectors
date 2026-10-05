@@ -1,0 +1,39 @@
+# Local environments, downloaded models, and generated experiment outputs
+.venv/
+venv/
+.cache/
+artifacts/
+visualizations/
+
+# Python/editor/test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Large model weights, activation arrays, and dataset archives
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.npy
+*.npz
+*.parquet
+*.arrow
+*.sqlite
+*.sqlite3
+*.db
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.part
